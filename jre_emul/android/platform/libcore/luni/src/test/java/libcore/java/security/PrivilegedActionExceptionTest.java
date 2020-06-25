@@ -19,14 +19,12 @@ package libcore.java.security;
 import static org.junit.Assert.assertSame;
 
 import java.security.PrivilegedActionException;
-
-import junit.framework.TestCase;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 import org.junit.Test;
 
 @RunWith(JUnit4.class)
-public class PrivilegedActionExceptionTest extends TestCase {
+public class PrivilegedActionExceptionTest {
 
     /**
      * PrivilegedActionException's constructor argument may be rethrown by getException() or
