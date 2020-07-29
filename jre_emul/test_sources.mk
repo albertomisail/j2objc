@@ -541,8 +541,11 @@ TEST_SOURCES := \
     libcore/java/nio/file/ProviderNotFoundExceptionTest.java \
     libcore/java/nio/file/attribute/UserPrincipalNotFoundExceptionTest.java \
     libcore/java/security/AccessControllerTest.java \
+    libcore/java/security/MessageDigestTest.java \
     libcore/java/security/PrincipalTest.java \
     libcore/java/security/PrivilegedActionExceptionTest.java \
+    libcore/java/security/ProviderTest.java \
+    libcore/java/security/SecureRandomTest.java \
     libcore/java/security/cert/CRLReasonTest.java \
     libcore/java/security/cert/X509CRLSelectorTest.java \
     libcore/java/text/AttributedCharacterIteratorAttributeTest.java \
@@ -1089,8 +1092,11 @@ TEST_SOURCES := \
     org/apache/harmony/tests/javax/security/cert/CertificateTest.java \
     org/apache/harmony/tests/javax/security/cert/X509CertificateTest.java \
     org/apache/harmony/tests/javax/xml/parsers/DocumentBuilderFactoryTest.java \
+    org/apache/harmony/tests/javax/xml/parsers/DocumentBuilderTest.java \
     org/apache/harmony/tests/javax/xml/parsers/FactoryConfigurationErrorTest.java \
     org/apache/harmony/tests/javax/xml/parsers/ParserConfigurationExceptionTest.java \
+    org/apache/harmony/tests/javax/xml/parsers/SAXParserFactoryTest.java \
+    org/apache/harmony/tests/javax/xml/parsers/SAXParserTest.java \
     org/apache/harmony/tests/org/xml/sax/HandlerBaseTest.java \
     org/apache/harmony/tests/org/xml/sax/InputSourceTest.java \
     org/apache/harmony/tests/org/xml/sax/SAXExceptionTest.java \
@@ -1546,8 +1552,15 @@ ANDROID_TEST_RESOURCES_SRCS = \
     tests/targets/security/SHA-512.data \
     recipt.xml \
     simple.xml \
+    simple_ns.xml \
     systemid.xml \
     wrong.xml \
+    nwf/staff.dtd \
+    nwf/staff.xml \
+    out_dh/staff.out \
+    out_hb/staff.out \
+    wf/staff.dtd \
+    wf/staff.xml \
     tests/api/java/io/testFields.ser \
     tests/api/java/io/testFieldsDefaulted.ser \
     tests/api/java/io/testfile-utf8.txt \

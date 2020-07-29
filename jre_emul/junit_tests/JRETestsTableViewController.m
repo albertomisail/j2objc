@@ -61,6 +61,7 @@
     @"JSON Tests",                @"libcore.org.json.SmallTests",
     @"Reflection Tests",          @"com.google.j2objc.ReflectionTests",
     @"Security Tests",            @"com.google.j2objc.security.SecurityTests",
+    @"Our Tests",                 @"org.apache.harmony.tests.javax.xml.parsers.SAXParserTest"
   ];
   self.testNames = [NSMutableArray array];
   self.testClasses = [NSMutableDictionary dictionary];

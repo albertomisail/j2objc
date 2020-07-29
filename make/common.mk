@@ -118,7 +118,7 @@ SDK_FLAGS = -isysroot $(SDKROOT)
 
 ifeq ($(DEBUGGING_SYMBOLS), YES)
 # Enable when it's decided to distribute JRE with Java source debugging.
-# J2OBJC_DEBUGFLAGS = -g
+J2OBJC_DEBUGFLAGS = -g
 DEBUGFLAGS = -g
 endif
 

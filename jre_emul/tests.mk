@@ -73,7 +73,7 @@ endif
 SUPPORT_LIB = $(TESTS_DIR)/libtest-support.a
 TEST_BIN = $(TESTS_DIR)/jre_unit_tests
 
-TRANSLATE_ARGS = -classpath $(JUNIT_DIST_JAR):$(JUNIT_DATAPROVIDER_DIST_JAR) \
+TRANSLATE_ARGS = -classpath $(JUNIT_DIST_JAR):$(JUNIT_DATAPROVIDER_DIST_JAR)$(J2OBJC_DEBUGFLAGS) \
     -Werror -sourcepath $(TEST_SRC):$(GEN_JAVA_DIR) \
     -encoding UTF-8 --prefixes $(MISC_TEST_ROOT)/resources/prefixes.properties
 ifndef JAVA_8

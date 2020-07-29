@@ -19,8 +19,8 @@
 # The following environment variables are useful when building on
 # the command-line:
 #
-# DEBUGGING_SYMBOLS=YES     Enable compiler's -g flag
-# OPTIMIZATION_LEVEL=n      Sets compilers optimization; legal values are any
+DEBUGGING_SYMBOLS=YES
+OPTIMIZATION_LEVEL=0
 #                           -O option, such as 0-3 or s (-Os)
 # WARNINGS='-Wfirst ...'    Add warning flags that aren't set by default
 #                           (-Wflag-name) or turn off warnings that are set
